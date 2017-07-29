@@ -6,22 +6,28 @@
 
 @charset "utf-8";
 
+// Import fonts
+@import url('https://fonts.googleapis.com/css?family=Capriola|Roboto');
+
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$base-font-family:  'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$brand-font-family: 'Capriola', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$base-font-size:    16px !default;
+$base-font-weight:  400 !default;
+$small-font-size:   $base-font-size * 0.875 !default;
+$base-line-height:  1.5 !default;
 
 $spacing-unit:     30px !default;
 
+$brand-color:      #17AA9C !default;
+$brand-accent:     #9ACECA !default;
+
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color:       $brand-accent !default;
+$grey-color-light: lighten($grey-color, 20%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Width of the content area
@@ -53,3 +59,20 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+// Header styles
+.site-header {
+  background: #ffffff;
+  border-top: 2px solid $grey-color;
+  left: 0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .site-title {
+    img {
+      width: 300px;
+    }
+  }
+}
