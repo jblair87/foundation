@@ -7,7 +7,7 @@
 @charset "utf-8";
 
 // Import fonts
-@import url('https://fonts.googleapis.com/css?family=Capriola|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Capriola|Roboto|Material+Icons');
 
 // Define defaults for each variable.
 
@@ -23,12 +23,12 @@ $spacing-unit:     30px !default;
 $brand-color:      #17AA9C !default;
 $brand-accent:     #9ACECA !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-
 $grey-color:       $brand-accent !default;
 $grey-color-light: lighten($grey-color, 20%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+
+$text-color:       darken($brand-color, 25%) !default;
+$background-color: #fdfdfd !default;
 
 // Width of the content area
 $content-width:    800px !default;
@@ -65,7 +65,7 @@ $on-laptop:        800px !default;
   background: #ffffff;
   border-top: 2px solid $grey-color;
   left: 0;
-  padding: 10px;
+  padding: 5px 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -74,5 +74,110 @@ $on-laptop:        800px !default;
     img {
       width: 300px;
     }
+  }
+
+  .site-nav .page-link {
+    color: $brand-color;
+
+    &:hover {
+      color: darken($brand-color, 15%);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+  }
+}
+
+@include media-query($on-palm) {
+  .site-header {
+    padding: 0;
+
+    .site-title {
+      display: block;
+      float: none;
+      text-align: center;
+    }
+
+    .site-nav {
+      background-color: transparent;
+      border: none;
+      float: none;
+      line-height: inherit;
+      position: inherit;
+      text-align: center;
+
+      .page-link {
+        display: inline-block;
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+// Typography
+
+h1 {
+  color: $brand-color;
+  font-family: $brand-font-family;
+}
+
+
+// Footer styles
+
+.site-footer {
+  bottom: 0;
+  left: 0;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+
+  i.material-icons {
+    font-size: 18px;
+    margin: 0 3px;
+    transition: margin 0.3s ease;
+    vertical-align: sub;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  .footer-oppia-link {
+    align-self: center;
+    margin-bottom: 3px;
+
+    i.material-icons {
+      margin-left: 1px;
+    }
+    &:hover i.material-icons {
+      margin: 0 0 0 4px;
+    }
+  }
+
+  .footer-email {
+    flex-grow: 1;
+    margin: 0;
+  }
+}
+
+@include media-query($on-palm) {
+  .site-footer {
+    font-size: 14px;
+
+    i.material-icons {
+      font-size: 14px;
+    }
+  }
+}
+
+
+// Global element styles
+a, a:visited {
+  color: $brand-color;
+
+  &:hover {
+    color: darken($brand-color, 15%);
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
 }

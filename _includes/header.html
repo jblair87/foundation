@@ -4,7 +4,6 @@
     {% assign default_paths = site.pages | sort: "order" | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}"><img src="{{ site.baseurl }}/images/logo.png" /></a>
-    <div class="flex-spacer"></div>
     {% if page_paths %}
       <nav class="site-nav">
       {% for path in page_paths %}

@@ -15,15 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Oppia Foundation
 email: partnerships@oppia.org
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > The Oppia Foundation's mission is to help anyone learn
+  anything they want in an effective and enjoyable way.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-facebook_username: jekyllrb
-github_username:  jekyll
+oppia_product_page_link: https://oppia.org
 
 # Build settings
 markdown: kramdown
