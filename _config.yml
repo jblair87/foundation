@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Oppia Foundation
 email: partnerships@oppia.org
-description: > The Oppia Foundation's mission is to help anyone learn
+description: >
+  The Oppia Foundation's mission is to help anyone learn
   anything they want in an effective and enjoyable way.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
