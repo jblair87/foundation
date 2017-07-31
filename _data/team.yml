@@ -1,6 +1,6 @@
 - sean:
   name: Sean Lip
-  role: Executive Director, Tech Lead
+  role: Executive Director
   bio: >
     SpaceTeam big data earned media cortado ship it innovate experiential.
     Physical computing user story grok food-truck physical computing pivot
@@ -9,19 +9,6 @@
     leader moleskine cortado sticky note big data waterfall is so 2000
     and late user story agile.
   image: sean.jpg
-
-- jared:
-  name: Jared Silver
-  role: Strategic Partnerships Lead
-  bio: >
-    SpaceTeam big data earned media cortado ship it innovate experiential.
-    Physical computing user story grok food-truck physical computing pivot
-    paradigm responsive waterfall is so 2000 and late quantitative vs.
-    qualitative affordances pair programming. Integrate engaging thought
-    leader moleskine cortado sticky note big data waterfall is so 2000
-    and late user story agile.
-  image: jared.jpg
-
 
 - jacob:
   name: Jacob Davis
@@ -94,3 +81,26 @@
     leader moleskine cortado sticky note big data waterfall is so 2000
     and late user story agile.
   image: rachel.jpg
+
+- jared:
+  name: Jared Silver
+  role: Storytelling Lead
+  bio: >
+    SpaceTeam big data earned media cortado ship it innovate experiential.
+    Physical computing user story grok food-truck physical computing pivot
+    paradigm responsive waterfall is so 2000 and late quantitative vs.
+    qualitative affordances pair programming. Integrate engaging thought
+    leader moleskine cortado sticky note big data waterfall is so 2000
+    and late user story agile.
+  image: jared.jpg
+
+- otter:
+  name: Oppia Otter
+  role: Mascot
+  bio: >
+    SpaceTeam big data earned media cortado ship it innovate experiential.
+    Physical computing user story grok food-truck physical computing pivot
+    paradigm responsive waterfall is so 2000 and late quantitative vs.
+    qualitative affordances pair programming. Integrate engaging thought
+    leader moleskine cortado sticky note big data waterfall is so 2000
+  image: otter.png
