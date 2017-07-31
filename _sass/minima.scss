@@ -7,7 +7,7 @@
 @charset "utf-8";
 
 // Import fonts
-@import url('https://fonts.googleapis.com/css?family=Capriola|Roboto:300,400,700|Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Capriola|Roboto:300,300i,400,700|Material+Icons');
 
 // Define defaults for each variable.
 
@@ -221,6 +221,12 @@ $on-laptop:        800px !default;
       line-height: 1.6;
       margin: 0;
       padding: 8px 12px;
+
+      .person-card-cta {
+        display: block;
+        font-weight: 700;
+        margin-top: 5px;
+      }
     }
   }
 }
