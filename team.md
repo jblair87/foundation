@@ -27,6 +27,6 @@ permalink: /team/
       <h3>You?</h3>
       <h4>Generous Contributor</h4>
     </div>
-    <p>Oppia is a community project, and we wouldn't be able to help so many learners without the support of our many generous contributors. These educators, technologists, and philanthropists have a massive impact on our ability to reach more learners, and we think <em>you</em> could make a significant difference. <a class="person-card-cta" href="{{ site.baseurl }}/get-involved/">Click here to see how you can help.</a></p>
+    <p>Oppia is a community project, and we wouldn't be able to help so many learners without the support of our many generous contributors. These educators, technologists, and philanthropists have a massive impact on our ability to reach more learners, and we think <em>you</em> could make a significant difference. <a class="inline-cta" href="{{ site.baseurl }}/get-involved/">Click here to see how you can help.</a></p>
   </div>
 </div>

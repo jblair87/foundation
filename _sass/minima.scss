@@ -88,6 +88,12 @@ a, a:visited {
   }
 }
 
+.inline-cta {
+  display: block;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
 // Header styles
 .site-header {
   background: #ffffff;
@@ -249,12 +255,6 @@ a, a:visited {
       line-height: 1.6;
       margin: 0;
       padding: 8px 12px;
-
-      .person-card-cta {
-        display: block;
-        font-weight: 700;
-        margin-top: 5px;
-      }
     }
   }
 }
@@ -320,7 +320,6 @@ a, a:visited {
         color: $grey-color-dark;
         font-size: 30px;
         margin-right: 15px;
-        transform: rotate(-90deg);
       }
 
       @include media-query($on-palm) {
@@ -359,7 +358,7 @@ a, a:visited {
 
         .material-icons {
           color: #ffffff;
-          transform: rotate(0);
+          transform: rotate(180deg);
         }
       }
 
@@ -369,6 +368,10 @@ a, a:visited {
         display: block;
         padding: 10px;
 
+        a {
+          font-weight: 700;
+        }
+        
         *:last-of-type {
           margin-bottom: 0;
         }
