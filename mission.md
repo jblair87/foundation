@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 order: 0
 title: Mission
 permalink: /mission/
