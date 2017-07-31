@@ -78,6 +78,15 @@ p {
   line-height: 1.75;
 }
 
+@include media-query($on-palm) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+
 a, a:visited {
   color: $brand-color;
 
@@ -371,7 +380,7 @@ a, a:visited {
         a {
           font-weight: 700;
         }
-        
+
         *:last-of-type {
           margin-bottom: 0;
         }

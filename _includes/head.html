@@ -26,10 +26,13 @@
 
     // Partner page accordion
     function toggleAccordion(elem) {
-      if(elem.parentElement.classList.contains('focus')) {
-        elem.parentElement.classList.remove('focus');
-      } else {
-        elem.parentElement.classList.add('focus');
+      for(i = 0; i < document.getElementsByClassName('accordion-row-container').length; i++) {
+        if(document.getElementsByClassName('accordion-row-container')[i] == elem.parentElement && !elem.parentElement.classList.contains('focus')) {
+          elem.parentElement.classList.add('focus');
+          window.scrollTo(0, elem.parentElement.getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
+        } else {
+          document.getElementsByClassName('accordion-row-container')[i].classList.remove('focus');
+        }
       }
     }
   </script>
