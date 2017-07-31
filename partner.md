@@ -9,12 +9,11 @@ permalink: /get-involved/
 <h2>Here's how you can help Oppia reach even more learners.</h2>
 <p>Improving education for all is a large effort. Any help you provide could impact potentially millions of learners. It doesn't matter where you come from, what language you speak, or how old or young you are — this is a community project! As long as you're willing to help, we'd love to have you join the cause.</p>
 
-<div class="">
-  <h1>I want to...</h1>
+<div class="partner-container">
   <div class="accordion-row-container">
-    <div class="accordion-row-header">
+    <div class="accordion-row-header" onclick="toggleAccordion(this)">
       <div class="accordion-row-text">
-        <h2>Provide funds to help scale Oppia's impact</h2>
+        <h2>Provide funding to scale Oppia's impact</h2>
         <h3>Recommended for: philanthropists, foundations, individual donors</h3>
       </div>
       <i class="material-icons">&#xE5C6;</i>
@@ -24,10 +23,10 @@ permalink: /get-involved/
     </div>
   </div>
   <div class="accordion-row-container">
-    <div class="accordion-row-header">
+    <div class="accordion-row-header" onclick="toggleAccordion(this)">
       <div class="accordion-row-text">
-        <h2>Volunteer my time to improve Oppia's lessons</h2>
-        <h3>Recommended for: educators, students, graphic artists, user researchers</h3>
+        <h2>Volunteer time to improve Oppia's lessons</h2>
+        <h3>Recommended for: educators, graphic artists, user researchers</h3>
       </div>
       <i class="material-icons">&#xE5C6;</i>
     </div>
@@ -41,9 +40,9 @@ permalink: /get-involved/
     </div>
   </div>
   <div class="accordion-row-container">
-    <div class="accordion-row-header">
+    <div class="accordion-row-header" onclick="toggleAccordion(this)">
       <div class="accordion-row-text">
-        <h2>Help build the Oppia.org website</h2>
+        <h2>Help develop the Oppia web platform</h2>
         <h3>Recommended for: developers, designers</h3>
       </div>
       <i class="material-icons">&#xE5C6;</i>
@@ -53,7 +52,7 @@ permalink: /get-involved/
     </div>
   </div>
   <div class="accordion-row-container">
-    <div class="accordion-row-header">
+    <div class="accordion-row-header" onclick="toggleAccordion(this)">
       <div class="accordion-row-text">
         <h2>Spread the word to get more learners using Oppia</h2>
         <h3>Recommended for: educators, administrators, press, distribution partners</h3>
@@ -68,7 +67,7 @@ permalink: /get-involved/
     </div>
   </div>
   <div class="accordion-row-container">
-    <div class="accordion-row-header">
+    <div class="accordion-row-header" onclick="toggleAccordion(this)">
       <div class="accordion-row-text">
         <h2>Help out in some other way</h2>
         <h3>Recommended for: anyone with an idea to improve Oppia's impact</h3>

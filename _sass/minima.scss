@@ -60,6 +60,34 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
+// Typography
+
+h1 {
+  color: $brand-color;
+  font-family: $brand-font-family;
+  text-align: center;
+}
+
+h2 {
+  color: $grey-color-dark;
+  margin: -15px 0 15px 0;
+  text-align: center;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a, a:visited {
+  color: $brand-color;
+
+  &:hover {
+    color: darken($brand-color, 15%);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+}
+
 // Header styles
 .site-header {
   background: #ffffff;
@@ -249,30 +277,102 @@ $on-laptop:        800px !default;
   }
 }
 
-// Typography
+// Partner page styles
+.partner-container {
+  margin: 20px 0;
 
-h1 {
-  color: $brand-color;
-  font-family: $brand-font-family;
-  text-align: center;
-}
+  .accordion-row-container {
 
-h2 {
-  color: $grey-color-dark;
-  margin: -15px 0 15px 0;
-  text-align: center;
-}
+    .accordion-row-header {
+      align-items: center;
+      border-radius: 5px;
+      border: 1px solid $grey-color-light;
+      cursor: pointer;
+      display: flex;
+      margin: 10px 0 0 0;
+      padding: 10px;
 
-p {
-  line-height: 1.75;
-}
+      .accordion-row-text {
+        flex-grow: 1;
 
-a, a:visited {
-  color: $brand-color;
+        h2 {
+          font-family: $brand-font-family;
+          margin: 0;
+          text-align: left;
+        }
 
-  &:hover {
-    color: darken($brand-color, 15%);
-    text-decoration: none;
-    transition: color 0.3s ease;
+        h3 {
+          margin: 0;
+        }
+
+        @include media-query($on-palm) {
+          h2 {
+            font-size: 18px;
+          }
+
+          h3 {
+            display: none;
+          }
+        }
+      }
+
+      .material-icons {
+        color: $grey-color-dark;
+        font-size: 30px;
+        margin-right: 15px;
+        transform: rotate(-90deg);
+      }
+
+      @include media-query($on-palm) {
+        .material-icons {
+          font-size: 24px;
+          margin-right: 0;
+          margin-left: 10px;
+        }
+      }
+
+      &:hover {
+        border-color: $grey-color;
+      }
+    }
+
+    .accordion-row-body {
+      display: none;
+    }
+
+    // Expanded accordion styles
+    &.focus {
+      .accordion-row-header {
+        background: $brand-color;
+        border-color: $brand-color;
+        border-radius: 5px 5px 0 0;
+
+        .accordion-row-text {
+          h2 {
+            color: #ffffff;
+          }
+
+          h3 {
+            color: $grey-color-light;
+          }
+        }
+
+        .material-icons {
+          color: #ffffff;
+          transform: rotate(0);
+        }
+      }
+
+      .accordion-row-body {
+        border: 1px solid $grey-color-light;
+        border-top-width: 0;
+        display: block;
+        padding: 10px;
+
+        *:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }

@@ -23,5 +23,14 @@
     }
     window.onload = adjustMainTopMargin;
     window.addEventListener('resize', adjustMainTopMargin);
+
+    // Partner page accordion
+    function toggleAccordion(elem) {
+      if(elem.parentElement.classList.contains('focus')) {
+        elem.parentElement.classList.remove('focus');
+      } else {
+        elem.parentElement.classList.add('focus');
+      }
+    }
   </script>
 </head>
