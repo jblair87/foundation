@@ -72,6 +72,12 @@ h2 {
   color: $grey-color-dark;
   margin: -15px 0 15px 0;
   text-align: center;
+
+  &.quote {
+    max-width: 600px;
+    padding: 10px 0;
+    margin: 10px auto 15px auto;
+  }
 }
 
 p {
