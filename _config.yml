@@ -18,8 +18,8 @@ email: partnerships@oppia.org
 description: >
   The Oppia Foundation's mission is to help anyone learn
   anything they want in an effective and enjoyable way.
-baseurl: "/foundation" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://oppiafoundation.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
