@@ -25,6 +25,6 @@ So far, educators have created over 10,000 of these lessons. And they've served 
 
 500,000 might not be 250 million &mdash; but it's a start.
 
-And, <a href="{{ site.baseurl }}/get-involved/">with your help</a>, we might just get there.
+And, <a href="{{ site.baseurl }}/get-involved/">with your help</a>, we might just close the gap.
 
 <br />
