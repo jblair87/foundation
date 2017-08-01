@@ -5,5 +5,4 @@
 layout: default
 ---
 
-<h1>"250 million children around the globe lack the most basic literacy and numeracy skills."</h1>
-<h2>Let's fix that.</h2>
+<h1>This page is coming soon...</h1>

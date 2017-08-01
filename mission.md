@@ -19,10 +19,12 @@ Oppia's mission is to help anyone, anywhere learn anything they want in an effec
 
 To achieve that, we have created a free, open-source learning platform with a focus on locally-contextual, demonstrably effective educational experiences.
 
-Oppia's lessons build on established pedagogy research, simulating an interactive tutor that engages the user in active learning and both identifies and addresses common misconceptions they may have. These adaptive lessons are created and refined by a diverse community of international contributors, providing Oppia's software enough information to provide specific and targeted feedback to help learners improve.
+Oppia's lessons build on established pedagogy research, simulating an interactive tutor that engages the user in active learning and both identifies and addresses common misconceptions they may have. These adaptive lessons are created and refined by a diverse community of international contributors, seeding Oppia's software with enough information to provide specific and targeted feedback to help learners improve.
 
 So far, educators have created over 10,000 of these lessons. And they've served over 500,000 users.
 
 500,000 might not be 250 million &mdash; but it's a start.
 
 And, <a href="{{ site.baseurl }}/get-involved/">with your help</a>, we might just get there.
+
+<br />
