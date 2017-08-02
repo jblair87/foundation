@@ -5,45 +5,42 @@ layout: default
 <h1>250 million children lack basic literacy and numeracy. Together, we can help fix that.</h1>
 
 <div id="icons">
-  <a href="#">
+  <a href="{{ site.baseurl }}/mission">
     <div class="icon-holder">
       <div class="icon-background">
         <img src="{{ site.baseurl }}/images/icon-mission.png" />
       </div>
       <div class="icons-text-container">
-        <p>something about oppia's mission</p>
+        <p>Oppia exists to improve educational outcomes for learners around the world.</p>
       </div>
       <div class="icons-cta-container">
-        <p>Read Oppia's Mission</p>
-        <i class="material-icons">&#xE5C8;</i>
+        <p>Read Oppia's Mission <i class="material-icons">&#xE5C8;</i></p>
       </div>
     </div>
   </a>
-  <a href="#">
+  <a href="{{ site.baseurl }}/team">
     <div class="icon-holder">
       <div class="icon-background">
         <img src="{{ site.baseurl }}/images/icon-team.png" />
       </div>
       <div class="icons-text-container">
-        <p>something about oppia's team</p>
+        <p>Our diverse, world-class team cares deeply about improving education.</p>
       </div>
       <div class="icons-cta-container">
-        <p>Meet the Oppia Team</p>
-        <i class="material-icons">&#xE5C8;</i>
+        <p>Meet the Oppia Team <i class="material-icons">&#xE5C8;</i></p>
       </div>
     </div>
   </a>
-  <a href="#">
+  <a href="{{ site.baseurl }}/get-involved">
     <div class="icon-holder">
       <div class="icon-background">
         <img src="{{ site.baseurl }}/images/icon-get-involved.png" />
       </div>
       <div class="icons-text-container">
-        <p>something about getting involved</p>
+        <p>Hundreds of people around the world have contributed to Oppia.</p>
       </div>
       <div class="icons-cta-container">
-        <p>Help Us Help Learners</p>
-        <i class="material-icons">&#xE5C8;</i>
+        <p>Help Us Help Learners <i class="material-icons">&#xE5C8;</i></p>
       </div>
     </div>
   </a>
