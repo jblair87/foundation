@@ -256,13 +256,11 @@ a, a:visited {
       }
 
       .icons-cta-container {
-        align-items: center;
         background: darken($brand-color, 5%);
         border: 1px solid darken($brand-color, 5%);
         border-radius: 0 0 5px 5px;
         color: #ffffff;
-        display: flex;
-        padding: 10px;
+        padding: 10px 6px 10px 10px;
 
         p {
           flex-grow: 1;
@@ -272,7 +270,7 @@ a, a:visited {
 
         .material-icons {
           display: inline-block;
-          margin: -1px 4px 0 0;
+          margin: -1px 4px 0 2px;
           transition: all 0.3s ease;
           vertical-align: middle;
         }
@@ -283,7 +281,7 @@ a, a:visited {
       .icon-holder {
         .icons-cta-container {
           .material-icons {
-            margin: -1px 0 0 4px;
+            margin: -1px 0 0 6px;
           }
         }
       }
