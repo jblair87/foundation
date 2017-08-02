@@ -292,12 +292,14 @@ a, a:visited {
 }
 
 #press {
+  margin-bottom: 20px;
   text-align: center;
 
   p {
     color: $grey-color;
     letter-spacing: 1px;
     margin-bottom: 0;
+    overflow: hidden;
     text-align: center;
     text-transform: uppercase;
 
