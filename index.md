@@ -1,8 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
 
 <h1>This page is coming soon...</h1>
+
+<div id="press">
+  {% for logo in site.data.press %}
+    <a href="{{ logo.link }}"><img src="{{ site.baseurl }}/images/{{ logo.image }}" style="height: {{ logo.height }}px; margin-top: {{ logo.margin_top }}px" /></a>
+  {% endfor %}
+</div>
