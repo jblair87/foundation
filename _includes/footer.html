@@ -9,3 +9,15 @@
   </div>
 
 </footer>
+
+{% if jekyll.environment == 'production' %}
+<script type="text/javascript">
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.async = true;
+    mf.src = "//cdn.mouseflow.com/projects/d4a366e8-b02a-4590-939f-2d7cf15f3496.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
+{% endif %}
