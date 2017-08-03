@@ -19,7 +19,7 @@ permalink: /get-involved/
       <i class="material-icons">&#xE5C6;</i>
     </div>
     <div class="accordion-row-body">
-      <p>Oppia needs money to help serve more students with more lessons. You generous donation will go directly towards improving content (e.g. hiring teachers to create, review, and improve lessons) or improving the student experience (e.g. paying for hosting the Oppia.org website).</p>
+      <p>Oppia needs money to help serve more students with more lessons. Your generous donation will go directly towards improving content (e.g. hiring teachers to create, review, and improve lessons) or improving the student experience (e.g. paying for hosting the Oppia.org website).</p>
       <p>Oppia has a proven process for scaling its reach and impacting more learners. Every dollar empowers us to scale that much more quickly.</p>
       <p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
