@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>250 million children lack basic literacy and numeracy. Together, we can help fix that.</h1>
+<h1>Over 250 million children around the world don't get the education they deserve.</h1><h1>Together, we can help fix that.</h1>
 
 <div id="icons">
   <a href="{{ site.baseurl }}/mission">
