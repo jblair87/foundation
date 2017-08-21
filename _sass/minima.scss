@@ -27,7 +27,7 @@ $grey-color:       $brand-accent !default;
 $grey-color-light: lighten($grey-color, 20%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$text-color:       #777777 !default;
+$text-color:       #575757 !default;
 $background-color: #fdfdfd !default;
 
 // Width of the content area
@@ -295,6 +295,7 @@ a, a:visited {
 
   p {
     color: $grey-color;
+    font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 0;
     overflow: hidden;
