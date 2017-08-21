@@ -7,14 +7,14 @@
 @charset "utf-8";
 
 // Import fonts
-@import url('https://fonts.googleapis.com/css?family=Capriola|Roboto:300,300i,400,700|Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Capriola|Roboto:300,400,400i,700|Material+Icons');
 
 // Define defaults for each variable.
 
 $base-font-family:  'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
 $brand-font-family: 'Capriola', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
 $base-font-size:    16px !default;
-$base-font-weight:  300 !default;
+$base-font-weight:  400 !default;
 $small-font-size:   $base-font-size * 0.875 !default;
 $base-line-height:  1.5 !default;
 
@@ -70,13 +70,20 @@ h1 {
 
 h2 {
   color: $grey-color-dark;
+  font-weight: 300;
   margin: -15px 0 15px 0;
   text-align: center;
 
   &.quote {
-    max-width: 600px;
+    font-size: 1.2em;
+    font-weight: 700;
+    max-width: 520px;
     padding: 10px 0;
     margin: 10px auto 15px auto;
+  }
+
+  .big-text {
+    font-size: 1.2em;
   }
 }
 
@@ -295,7 +302,6 @@ a, a:visited {
 
   p {
     color: $grey-color;
-    font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 0;
     overflow: hidden;
@@ -443,6 +449,7 @@ a, a:visited {
         }
 
         h3 {
+          font-weight: 300;
           margin: 0;
         }
 

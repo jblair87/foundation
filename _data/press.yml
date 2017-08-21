@@ -1,8 +1,3 @@
-- google:
-  image: google.png
-  link: https://opensource.googleblog.com/2014/02/oppia-tool-for-interactive-learning.html
-  height: 28
-  margin_top: 1
 - techcrunch:
   image: techcrunch.png
   link: https://techcrunch.com/2014/02/26/meet-oppia-googles-new-open-source-project-that-lets-anyone-create-an-interactive-learning-experience/
@@ -13,6 +8,11 @@
   link: https://thenextweb.com/google/2014/02/27/google-debuts-online-education-tool-oppia-help-anyone-create-interactive-activities-teaching-others/#.tnw_yZSjpOD5
   height: 20
   margin_top: -2
+- google:
+  image: google.png
+  link: https://opensource.googleblog.com/2014/02/oppia-tool-for-interactive-learning.html
+  height: 28
+  margin_top: 1
 - edx:
   image: edx.png
   link: https://open.edx.org/blog/new-oppia-xblock-allows-embedding-interactive-activities-open-edx-courses

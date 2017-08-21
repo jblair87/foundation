@@ -7,24 +7,24 @@ permalink: /mission/
 
 # Our Mission
 
-In 2016, the United Nations produced a list of <a href="http://www.un.org/sustainabledevelopment/sustainable-development-goals/">17 Sustainable Development Goals</a> to help address the world's most pressing problems. Fourth on their list was quality education, with the hope that "all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy." Unfortunately, <a href="https://www.brookings.edu/wp-content/uploads/2016/04/FINAL-Millions-Learning-Report-1.pdf"> 38% of children worldwide</a> have not achieved literacy and numeracy. In fact:
+Education is important. Access to quality education is fundamental for improving people’s lives, and lack of such access has been identified by the United Nations as one of the world’s most pressing problems (<a href="http://www.un.org/sustainabledevelopment/sustainable-development-goals/">Sustainable Development Goals, 2016</a>). However, at least 250 million children worldwide have <em>not</em> achieved literacy and numeracy (<a href="https://www.brookings.edu/wp-content/uploads/2016/04/FINAL-Millions-Learning-Report-1.pdf">Brookings Institution</a>). To make matters worse, there exists a 100 year gap between educational outcomes in developed and developing countries. According to the report:
 
-<h2 class="quote">"250 million children around the globe lack the most basic literacy and numeracy skills."</h2>
+<h2 class="quote">"It could take more than 100 years for students in developing countries just to reach today’s average level in developed regions when it comes to science—and they might never close the gap in math."</h2>
 
-To make matters worse, there is <a href="https://www.brookings.edu/wp-content/uploads/2016/04/FINAL-Millions-Learning-Report-1.pdf">a 100 year gap</a> between educational outcomes in developed and developing countries, meaning that "it could take more than 100 years for students in developing countries just to reach <em>today's</em> average level in developed regions when it comes to science—and they might never close the gap in math" (emphasis added).
+Why is this the case? We believe that, although raw talent and potential are not limited  by factors like geography or wealth, access to quality education unfortunately is.
 
-<h2 class="quote">The Oppia Foundation exists to help close that gap.</h2>
+Many regions lack sufficient resources to adequately support each individual student. Further, educational practices throughout most of the world are decades behind what research says provides for effective learning experiences. Textbooks and video lectures, for example, can deliver information, but they cannot cultivate understanding or provide students with the necessary practice and feedback to master a skill.
 
-Oppia's mission is to help anyone, anywhere learn anything they want in an effective and enjoyable way.
+This results in learning experiences that are neither effective nor enjoyable, causing learners to struggle unnecessarily in the classroom and through life, and even to dislike the idea of learning altogether.
 
-To achieve that, we have created a free, open-source learning platform with a focus on locally-contextual, demonstrably effective educational experiences.
+<h2 class="quote">Oppia’s mission is to help anyone, anywhere learn anything they want to in an <span class="big-text">effective</span> and <span class="big-text">enjoyable</span> way.</h2>
 
-Oppia's lessons build on established pedagogy research, simulating an interactive tutor that engages the user in active learning and both identifies and addresses common misconceptions they may have. These adaptive lessons are created and refined by a diverse community of international contributors, seeding Oppia's software with enough information to provide specific and targeted feedback to help learners improve.
+The Oppia team works to create effective, enjoyable online lessons at scale that can reach millions of people. We want every individual, no matter what their personal circumstances, to have access to learning experiences that are not only pedagogically effective, but also fun and engaging.
 
-So far, educators have created over 10,000 of these lessons. And they've served over 500,000 users.
+Oppia’s unique technology simulates an interactive tutor, adapting each lesson to individual learners’ needs and providing specific, targeted feedback to help them improve. Furthermore, the lessons are openly licensed and the platform open source, which enables a diverse group of educators and technologists from around the world to regularly iterate on and improve them.
 
-500,000 might not be 250 million &mdash; but it's a start.
+To date, the Oppia community has created 10,000 lessons and served over 500,000 users from an incredibly diverse assortment of backgrounds. And while 500,000 might not be 250 million, it’s a start.
 
-And, <a href="{{ site.baseurl }}/get-involved/">with your help</a>, we might just close the gap.
+Perhaps &mdash; <a href="{{ site.baseurl }}/get-involved/">with your help</a> &mdash; we can help close the gap.
 
 <br />
