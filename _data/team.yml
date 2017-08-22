@@ -2,44 +2,32 @@
   name: Sean Lip
   role: Executive Director
   bio: >
-    Sean is Oppia's founder and executive director. He is currently a
-    senior software engineer and tech lead at Google, where he has gained
-    extensive experience leading several projects. Sean is known among the
-    Oppia community not only for how much he cares about Oppia's mission, but
-    also for how much he cares about everyone who contributes toward it.
-    Sean holds a Ph.D. in theoretical physics from the University of Cambridge.
+    As Oppia's founder, Sean is inspired by its potential to contribute to
+    a world where every learner has access to effective and engaging educational
+    materials. Sean holds a Ph.D. in theoretical physics from the University of
+    Cambridge and is currently a senior software engineer and tech lead at
+    Google, where he has gained extensive experience leading several projects.
+
   image: sean.jpg
 
-- jacob:
-  name: Jacob Davis
-  role: Board Member
+- mark:
+  name: Mark Halpin
+  role: Design Lead
   bio: >
-    Jacob is currently a software engineer at Google. Prior, he earned a Ph.D.
-    in mathematics from Carnegie Mellon University, as well as both a bachelor's
-    (with 1st class honours) and a master's (with distinction) in mathematics
-    from University of Cambridge. Jacob is passionate about solving problems
-    through the use of logic and mathematics. He also brings to the team
-    first-hand teaching experience from being a TA at Carnegie Mellon.
-  image: jacob.jpg
-
-- amit:
-  name: Amit Deutsch
-  role: Board Member
-  bio: >
-    Amit currently works as a program manager at Google doing science education
-    outreach on the Making & Science Team. Prior, Amit earned a bachelor's
-    degree in psychology from University of California, Berkeley; as well as a
-    master's in learning, design, and technology from Stanford. Amit has
-    extensive experience tutoring and teaching learners in classes and camps.
-  image: amit.jpg
+    Mark's experience as both a professor and a stage/theme park designer has
+    given him the perspective to see that an effective learning experience needs
+    to have not just great content but also an engaging delivery. He is excited
+    about making Oppia's lessons and user experience feel friendly, warm, and
+    inviting, and to help make learning fun for people around the world.
+  image: mark.jpg
 
 - ben:
   name: Ben Henning
   role: Tech Lead
   bio: >
-    As an engineer and avid game developer, Ben views education as a powerful
+    As an engineer and game developer, Ben views education as a powerful
     tool to help people "level up" in their lives and recognize that they're
-    capable of so much more than they otherwise would have thought. As a tech
+    capable of more than they otherwise would have thought. As a tech
     lead, Ben brings to the Oppia team a decade of development experience
     (including two years in his current role as a software engineer at Google).
   image: ben.jpg
@@ -55,44 +43,57 @@
     developer at the Center for Educational Resources.
   image: tony.jpg
 
-- mark:
-  name: Mark Halpin
-  role: Design Lead
-  bio: >
-    To deliver effective learning experiences, Oppia must have strong content
-    <em>and</em> engaging delivery. Mark uses his lifetime of experience as a
-    professor, puzzle maker, and stage/theme park designer to help Oppia
-    achieve both of these. Oppia's warm, inviting, and friendly user experience
-    is thanks to Mark's hard work and imagination.
-  image: mark.jpg
-
 - rachel:
   name: Rachel Chen
   role: User Research Lead
   bio: >
-    Rachel is a recent graduate of University of California San Diego, where
-    she studied psychology (with a minor in computer science), worked as a
-    UX researcher at the UCSD Design Lab, and served as a research assistant at
-    the UCSD Perception & Cognition Lab. She is currently pursuing a master's
-    in human-computer interaction at Georgia Tech.
+    Rachel is passionate about ensuring that Oppia is user-friendly and
+    accessible to learners around the globe. She has worked as a UX researcher
+    at the UCSD Design Lab and served as a research assistant at the UCSD
+    Perception & Cognition Lab. She is currently pursuing a master's in
+    human-computer interaction at Georgia Tech.
   image: rachel.jpg
 
 - jared:
   name: Jared Silver
   role: Strategic Partnerships Lead
   bio: >
-    Jared is a product-oriented software developer with a focus in education
-    technology. He's worked for multiple venture-backed edtech startups like
-    Codecademy, EdSurge, and Higher Learning Technologies, and currently works
-    for Quill.org (a NYC-based edtech nonprofit that helps learners develop
-    critical thinking skills through research-backed writing exercises).
+    Jared's mission in life is to help foster a human capital revolution through
+    education technology. He's inspired by Oppia's potential to empower millions
+    of learners around the world. Jared has worked with a variety of education
+    technology companies and nonprofits, including Quill.org, EdSurge, and
+    Codecademy.
   image: jared.jpg
+
+- jacob:
+  name: Jacob Davis
+  role: Board Member
+  bio: >
+    Jacob is passionate about solving problems through logic and mathematics,
+    and he's excited to share that passion with learners in developing
+    regions around the world. He holds a Ph.D. in mathematics from Carnegie
+    Mellon University, as well as both a bachelor's and a master's in
+    mathematics from University of Cambridge. Jacob currently serves as a
+    software engineer at Google.
+  image: jacob.jpg
+
+- amit:
+  name: Amit Deutsch
+  role: Board Member
+  bio: >
+    After receiving a master's in <em>learning, design, and technology</em>
+    from Stanford, Amit is inspired by the power of Oppia's technology to
+    meet the specific needs of each individual learner. Amit currently does
+    science education outreach on Google's Making & Science Team. He has a
+    degree in psychology from Berkeley, as well as extensive experience
+    tutoring and teaching learners in classes and camps.
+  image: amit.jpg
 
 - otter:
   name: Oppia Otter
   role: Mascot
   bio: >
-    Oppia Otter is the unofficial mascot of Oppia.org. Created by Design Lead
+    The Oppia Otter is the unofficial mascot of Oppia.org. Created by Design Lead
     Mark Halpin, the Oppia Otter embodies the friendly and inviting atmosphere
     of both Oppia.org and the Oppia community at large.
   image: otter.png
