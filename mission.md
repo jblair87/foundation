@@ -26,5 +26,3 @@ Oppia’s unique technology simulates an interactive tutor, adapting each lesson
 To date, the Oppia community has created 10,000 lessons and served over 500,000 users from an incredibly diverse assortment of backgrounds. And while 500,000 might not be 250 million, it’s a start.
 
 Perhaps &mdash; <a href="{{ site.baseurl }}/get-involved/">with your help</a> &mdash; we can help close the gap.
-
-<br />

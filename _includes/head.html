@@ -11,21 +11,12 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   <script>
-    // Because the header is static positioned, let's make sure that the main
-    // content is always displaying below it instead of being hidden behind it.
-    function adjustMainTopMargin() {
-      var headerHeight = document.getElementsByClassName('site-header')[0].clientHeight;
-      document.getElementsByTagName('main')[0].style.marginTop = `${headerHeight}px`;
-    }
-    window.onload = adjustMainTopMargin;
-    window.addEventListener('resize', adjustMainTopMargin);
-
     // Partner page accordion
     function toggleAccordion(elem) {
       for(i = 0; i < document.getElementsByClassName('accordion-row-container').length; i++) {
         if(document.getElementsByClassName('accordion-row-container')[i] == elem.parentElement && !elem.parentElement.classList.contains('focus')) {
           elem.parentElement.classList.add('focus');
-          window.scrollTo(0, elem.parentElement.getBoundingClientRect().top - document.body.getBoundingClientRect().top - 10);
+          window.scrollTo(0, elem.getBoundingClientRect().top - document.body.getBoundingClientRect().top - document.getElementsByClassName('site-header')[0].offsetHeight - 10);
         } else {
           document.getElementsByClassName('accordion-row-container')[i].classList.remove('focus');
         }
