@@ -6,8 +6,8 @@ permalink: /get-involved/
 ---
 
 <h1>Let's Make a Difference Together</h1>
-<h2>Want to make a difference in the lives of learners around the world?</h2>
-<p>Improving education for all is a large effort. Any help you provide could impact potentially millions of learners. It doesn't matter where you come from, what language you speak, or how old or young you are — this is a community project! As long as you're willing to help, we'd love to have you join the cause.</p>
+<h2>We can make a difference in the lives of learners around the world.</h2>
+<p>Improving education for all is a large effort, and your help could impact millions of learners. It doesn't matter where you come from, what language you speak, or how old or young you are — this is a community project! As long as you're willing to help, we'd love to have you join the cause.</p>
 
 <div class="partner-container">
   <div class="accordion-row-container">
@@ -20,7 +20,7 @@ permalink: /get-involved/
     </div>
     <div class="accordion-row-body">
       <p>Oppia aspires to help millions of learners, but our impact is limited by our resources. Additional funds will help us to help more learners develop the skills they need to succeed. Your generous donation will go directly towards improving content (e.g. hiring teachers to create, review, and improve lessons) or improving the student experience (e.g. keeping the Oppia.org website up and running).</p>
-      <p>Oppia has a proven process for scaling its reach and impacting more learners. Every dollar empowers us to scale that much more quickly.</p>
+      <p>Oppia has a scalable process for extending its reach and impacting more learners. Every dollar empowers us to scale that much more quickly.</p>
       <p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_s-xclick"><!--_-->
