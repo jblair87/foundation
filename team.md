@@ -7,7 +7,7 @@ permalink: /team/
 
 <h1>The Oppia Foundation Team</h1>
 <h2>Oppia is powered by volunteers from across the globe.</h2>
-<p>Oppia's open source community consists of learners, educators, and technologists from all walks of life. Our contributors include people who have worked for leading companies like Google, Quora, and Codecademy, and have attended renowned institutions like Stanford, Carnegie Mellon, and the University of Cambridge. Though our community is incredibly diverse, all of our contributors share the same commitment to improving the quality education around the world.</p>
+<p>Oppia's open source community consists of learners, educators, and technologists from all walks of life. Our contributors include people who have worked for leading companies like Google, Quora, and Codecademy, and have attended renowned institutions like Stanford, Carnegie Mellon, and the University of Cambridge. Though our community is incredibly diverse, all of our contributors share the same commitment to improving the quality of education around the world.</p>
 
 <div class="card-container">
 {% for person in site.data.team %}
