@@ -41,9 +41,8 @@ permalink: /get-involved/
     </div>
     <div class="accordion-row-body">
       <p><a href="https://www.oppia.org/get_started">Create new lessons</a>: Create new lessons on Oppia so students can learn a wider range of topics. You can create a lesson about anything you think is interesting! <a href="https://www.oppia.org/get_started">Click here to get started.</a></p>
-      <p><a href="https://github.com/oppia/oppia/wiki/Playtesting-explorations">Improve existing lessons</a>: Playtest existing lessons yourself, or facilitate playtests with other learners. By providing feedback on existing lessons, you'll help us refine and improve them so learners can have a better learning experience. <a href="https://github.com/oppia/oppia/wiki/Playtesting-explorations">Click here for instructions.</a></p>
+      <p>Test existing lessons: Before publicizing a lesson, we want to make sure that it's effective and enjoyable. This means that students' skills improve by virtue of their playing it, and students play it to completion, even in the absence of any external pressure.<a href="https://github.com/oppia/oppia/wiki/Playtesting-explorations">Click here for instructions.</a></p>
       <p><a href="https://github.com/oppia/oppia/wiki">Fix bugs and build new features</a>: In addition to helping us improve Oppia's lessons, you can also contribute to our open source code base, product design process, and more. Your work will be used by potentially millions of learners. <a href="https://github.com/oppia/oppia/wiki">Click here to see how.</a></p>
-      <p><a href="mailto:{{ site.email }}?subject=Educational materials for Oppia.org">Materials</a>: If you have created high-quality educational materials (videos, images, text), and are willing to have them used in Oppia lessons, <a href="mailto:{{ site.email }}?subject=Educational materials for Oppia.org">please click here to let us know.</a></p>
     </div>
   </div>
 
@@ -56,9 +55,8 @@ permalink: /get-involved/
       <i class="material-icons">&#xE5C6;</i>
     </div>
     <div class="accordion-row-body">
-      <p><a href="mailto:{{ site.email }}?subject=Oppia distribution partnership">Introduce your students to Oppia</a>: If you're an educator, we'd love to support your students. You can integrate Oppia lessons into your existing educational program, or alternatively, integrate the material from your program into Oppia. If you're interested in doing this on a broader scale (e.g. across an entire school district or college program), please <a href="mailto:{{ site.email }}?subject=Oppia distribution partnership">click here to get in touch.</a></p>
+      <p>Introduce your students to Oppia: Oppia's interactive lessons can provide your students with learning experiences that are effective and engaging. <a href="https://oppia.github.io/#/EmbeddingAnExploration">Embed Oppia lessons</a> into your existing educational program, or alternatively, integrate the material from your program into Oppia. If you have a distribution channel and would like to leverage Oppia's content to bolster your offering, please <a href="mailto:{{ site.email }}?subject=Oppia distribution partnership">click here to get in touch.</a></p>
       <p><a href="mailto:{{ site.email }}?subject=Writing about Oppia">Share the Oppia story</a>: If you have an audience of learners, educators, or technologists, they may be interested to hear more about the Oppia story (as were readers of publications like <em>TechCrunch</em> and <em>TheNextWeb</em>). For any information that may be helpful, please <a href="mailto:{{ site.email }}?subject=Writing about Oppia">click here to contact us.</a></p>
-      <p><a href="mailto:{{ site.email }}?subject=Oppia distribution partnership">Distribute Oppia lessons on your platform</a>: Oppia's interactive lessons can provide your students with learning experiences that are effective and engaging. If you have a distribution channel and would like to leverage Oppia's content to bolster your offering, please <a href="mailto:{{ site.email }}?subject=Oppia distribution partnership">click here to get in touch.</a></p>
     </div>
   </div>
 
